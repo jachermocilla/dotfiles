@@ -6,5 +6,5 @@ My VIM utilities which basically is a vimrc :)
     ./setup.sh
 
 ### Mappings
-*   F8 - Tnvokes ctag in the current directory
-*   F4 - Toggels tags list
+*   F8 - Invokes ctag in the current directory
+*   F4 - Toggles tags list
