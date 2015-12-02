@@ -34,4 +34,5 @@ map <F4> :TlistToggle<cr>
 "Generate ctags for current dir
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
 
-
+"Open the tags window
+map <F3> :TlistOpen<cr>

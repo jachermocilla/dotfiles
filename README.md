@@ -8,3 +8,7 @@ My VIM utilities which basically is a vimrc :)
 ### Mappings
 *   F8 - Invokes ctag in the current directory
 *   F4 - Toggles tags list
+*   F3 - Focus tags list
+
+### Resources
+*   http://vim-taglist.sourceforge.net/manual.html#taglist-using
