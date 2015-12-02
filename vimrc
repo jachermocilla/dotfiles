@@ -6,7 +6,15 @@ set background=dark
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
 syntax on
+colorscheme torte
+
 set number
 set showmatch
+
+"stick to 80x25
+set textwidth=80
+
+
 
