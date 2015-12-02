@@ -25,7 +25,7 @@ set showmatch
 "stick to 80x25
 set textwidth=80
 
-"---Mappings
+"Key Mappings
 let Tlist_WinWidth=20
 
 "Toggle tags list
