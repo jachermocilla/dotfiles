@@ -1,10 +1,10 @@
 # vim-utils
 My VIM utilities which basically is a vimrc :)
 
-##Install 
+### Install 
 
     ./setup.sh
 
-##Mappings
+### Mappings
 *   F8 - Tnvokes ctag in the current directory
 *   F4 - Toggels tags list
