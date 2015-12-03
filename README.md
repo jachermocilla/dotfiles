@@ -6,9 +6,18 @@ My VIM utilities which basically is a vimrc :)
     ./setup.sh
 
 ### Mappings
-*   F8 - Invokes ctag in the current directory
-*   F4 - Toggles tags list
-*   F3 - Focus tags list
-*   F7 - Inserts license text at the top
+*   F9  - Invokes ctag in the current directory
+*   F8  - Make
+*   F7  - Make clean
+*   F6  - Git commit
+*   F5  - Git push
+*   F4  - Open tags list
+*   F3  - Focus tags list
+
+### Useful Shortcuts
+*   :E              - Opens file explorer
+*   Ctrl+w,s        - Split window horizontally
+*   Ctrl+w,<arrows> - Move across windows
+
 ### Resources
 *   http://vim-taglist.sourceforge.net/manual.html#taglist-using

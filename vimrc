@@ -36,7 +36,7 @@ map <F9> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
 map <F8> :!make<cr>
 
 "make clean
-map <F7> :!make<cr>
+map <F7> :!make clean<cr>
 
 "git commit
 map <F6> :!git commit -m'edits' * <cr>
