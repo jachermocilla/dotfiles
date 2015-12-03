@@ -38,4 +38,4 @@ map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
 map <F3> :TlistOpen<cr>
 
 "shortcut to insert license
-map :srg :0r ~/.vim/srg-license.txt<cr>
+map <F7> :0r ~/.vim/srg-license.txt<cr>
