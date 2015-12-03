@@ -28,23 +28,28 @@ set textwidth=80
 "Key Mappings
 let Tlist_WinWidth=30
 
-"Toggle tags list
-map <F4> :TlistToggle<cr>
 
 "Generate ctags for current dir
-map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
+map <F9> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
+
+"make
+map <F8> :!make<cr>
+
+"make clean
+map <F7> :!make<cr>
+
+"git commit
+map <F6> :!git commit -m'edits' * <cr>
+
+"git push
+map <F5> :!git push <cr>
+
+"Toggle tags list
+map <F4> :TlistToggle<cr>
 
 "Open the tags window
 map <F3> :TlistOpen<cr>
 
 "shortcut to insert license
-map <F7> :0r ~/.vim/srg-license.txt<cr>
+map <F2> :0r ~/.vim/srg-license.txt<cr>
 
-"make
-map <F6> :!make<cr>
-
-"git commit
-map <F5> :!git commit -m'edits' * <cr>
-
-"git push
-map <F4> :!git push <cr>
