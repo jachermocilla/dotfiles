@@ -39,3 +39,9 @@ map <F3> :TlistOpen<cr>
 
 "shortcut to insert license
 map <F7> :0r ~/.vim/srg-license.txt<cr>
+
+"make
+map <F6> :!make<cr>
+
+"git commt
+map <F5> :!git commit -m'edits' * <cr>
