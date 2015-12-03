@@ -26,7 +26,7 @@ set showmatch
 set textwidth=80
 
 "Key Mappings
-let Tlist_WinWidth=20
+let Tlist_WinWidth=30
 
 "Toggle tags list
 map <F4> :TlistToggle<cr>
