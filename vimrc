@@ -43,5 +43,8 @@ map <F7> :0r ~/.vim/srg-license.txt<cr>
 "make
 map <F6> :!make<cr>
 
-"git commt
+"git commit
 map <F5> :!git commit -m'edits' * <cr>
+
+"git push
+map <F4> :!git push <cr>
