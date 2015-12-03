@@ -1,7 +1,7 @@
 /*
-   Copyright (c) <year> University of the Philippines Los Banos
+   Copyright (c) 2015 University of the Philippines Los Banos
    All Rights Reserved
-   Created by <full name> (<email address>)
+   Created by Joseph Anthony C. Hermocilla (jachermocilla@gmail.com)
    Systems Research Group, Institute of Computer Science 
 
    Licensed under the Apache License, Version 2.0 (the "License");
