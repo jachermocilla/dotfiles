@@ -9,6 +9,9 @@ set expandtab
 set smarttab
 set wrap
 
+"save everytime
+set autowriteall
+
 set encoding=utf8
 set ffs=unix,dos,mac
 
