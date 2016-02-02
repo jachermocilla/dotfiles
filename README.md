@@ -13,6 +13,7 @@ My VIM utilities which basically is a vimrc :)
 *   F5  - Git push
 *   F4  - Open tags list
 *   F3  - Focus tags list
+*   F2  - Insert license
 
 ### Useful Shortcuts
 *   :E              - Opens file explorer
