@@ -8,6 +8,7 @@ set shiftwidth=4
 set expandtab
 set smarttab
 set wrap
+set modeline
 
 "save everytime
 set autowriteall
