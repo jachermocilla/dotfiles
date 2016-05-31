@@ -36,7 +36,7 @@ exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black"
 bindsym $mod+b exec /usr/bin/firefox
 
 #screen shot
-bindsym XF86Display exec "scrot ~/Pictures/Screenshot%Y-%m-%d%H:%M:%S.png"
+bindsym $mod+Print exec "scrot ~/Pictures/Screenshot%Y-%m-%d%H:%M:%S.png"
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
