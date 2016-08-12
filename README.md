@@ -20,7 +20,7 @@ My VIM utilities which basically is a vimrc :)
 *   :e \<filename\>               - Open file for editing
 *   Ctrl+w,s (or :split)        - Split window horizontally
 *   Ctrl+w,<arrows>             - Move across windows
-*   Ctrl+w,_                    - Maximize current window
+*   Ctrl+w,\_                    - Maximize current window
 *   Ctrl+w,=                    - Make all windows equal in size
 *   :wa                         - Save all buffers
 *   :qa!                        - Save all buffers and exit
