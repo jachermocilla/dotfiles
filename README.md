@@ -16,9 +16,12 @@ My VIM utilities which basically is a vimrc :)
 *   F2  - Insert license
 
 ### Useful Shortcuts
-*   :E              - Opens file explorer
-*   Ctrl+w,s        - Split window horizontally
-*   Ctrl+w,<arrows> - Move across windows
+*   :E                          - Opens file explorer
+*   Ctrl+w,s (or :split)        - Split window horizontally
+*   Ctrl+w,<arrows>             - Move across windows
+*   Ctrl+w,_                    - Maximize current window
+*   Ctrl+w,=                    - Make all windows equal in size
+*   :wa                         - Save all buffers
 
 ### Resources
 *   http://vim-taglist.sourceforge.net/manual.html#taglist-using
