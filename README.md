@@ -16,7 +16,7 @@ My VIM utilities which basically is a vimrc :)
 *   F2  - Insert license
 
 ### My Favorite Shortcuts
-*   :E                          - Opens file explorer
+*   **:E**                          - Opens file explorer
 *   :e \<filename\>               - Open file for editing
 *   Ctrl+w,s (or :split)        - Split window horizontally
 *   Ctrl+w,<arrows>             - Move across windows
