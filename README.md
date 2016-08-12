@@ -25,7 +25,7 @@ My VIM utilities which basically is a vimrc :)
 *   **:wa**                         - Save all buffers
 *   **:qa!**                        - Save all buffers and exit
 *   **: \<line number\>**           - Go to line number
-*   **:! <command>**                - Run a cli command
+*   **:! \<command\>**                - Run a cli command
 
 ### Resources
 *   http://vim-taglist.sourceforge.net/manual.html#taglist-using
