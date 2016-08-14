@@ -15,10 +15,17 @@ My VIM utilities which basically is a vimrc :)
 *   F3  - Focus tags list
 *   F2  - Insert license
 
-### Useful Shortcuts
-*   :E              - Opens file explorer
-*   Ctrl+w,s        - Split window horizontally
-*   Ctrl+w,<arrows> - Move across windows
+### My Favorite Shortcuts
+*   **:E**                          - Opens file explorer
+*   **:e \<filename\>**             - Open file for editing
+*   **Ctrl+w,s (or :split)**        - Split window horizontally
+*   **Ctrl+w,<arrows>**             - Move across windows
+*   **Ctrl+w,\_**                    - Maximize current window
+*   **Ctrl+w,=**                    - Make all windows equal in size
+*   **:wa**                         - Save all buffers
+*   **:qa!**                        - Save all buffers and exit
+*   **: \<line number\>**           - Go to line number
+*   **:! \<command\>**                - Run a cli command
 
 ### Resources
 *   http://vim-taglist.sourceforge.net/manual.html#taglist-using
