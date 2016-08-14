@@ -29,7 +29,8 @@ floating_modifier $mod
 #open firefox and terminal at startup
 #exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black -e /usr/bin/mc"
 exec /usr/bin/firefox
-exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black"
+#exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black"
+exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black -fa 'Monospace' -fs 14"
 
 #custom bindings
 #browser
@@ -41,7 +42,7 @@ bindsym $mod+Print exec "scrot ~/Pictures/Screenshot%Y-%m-%d%H:%M:%S.png"
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
 #bindsym $mod+Return exec /usr/bin/xterm
-bindsym $mod+Return exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black"
+bindsym $mod+Return exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black -fa 'Monospace' -fs 14"
 
 # kill focused window
 bindsym $mod+Shift+q kill
