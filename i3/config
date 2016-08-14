@@ -27,8 +27,8 @@ floating_modifier $mod
 
 
 #open firefox and terminal at startup
-exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black -e /usr/bin/mc"
-#exec /usr/bin/firefox
+#exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black -e /usr/bin/mc"
+exec /usr/bin/firefox
 exec "xterm -ls -xrm 'XTerm*selectToClipboard: true' -fg green -bg black"
 
 #custom bindings
