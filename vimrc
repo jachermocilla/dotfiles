@@ -28,7 +28,7 @@ set number
 set showmatch
 
 "stick to 80x25
-set textwidth=80
+set textwidth=75
 
 "Key Mappings
 let Tlist_WinWidth=30
@@ -44,10 +44,10 @@ map <F8> :!make<cr>
 map <F7> :!make clean<cr>
 
 "git commit
-map <F6> :!git commit -m'edits' * <cr>
+map <F6> :!git commit -m'edits' * && git push <cr>
 
 "git push
-map <F5> :!git push <cr>
+map <F5> :!git ftp push <cr>
 
 "Toggle tags list
 map <F4> :TlistToggle<cr>
