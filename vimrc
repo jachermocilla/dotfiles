@@ -7,7 +7,6 @@ set tabstop=3
 set shiftwidth=3
 set expandtab
 set smarttab
-set wrap
 set modeline
 
 "save everytime
@@ -17,6 +16,7 @@ autocmd CursorHold,CursorHoldI,InsertLeave * silent! wall
 set encoding=utf8
 set ffs=unix,dos,mac
 
+set nowrap
 set nobackup
 set nowb
 set noswapfile
@@ -28,7 +28,7 @@ set number
 set showmatch
 
 "stick to 80x25
-set textwidth=75
+"set textwidth=75
 
 "Key Mappings
 let Tlist_WinWidth=30
