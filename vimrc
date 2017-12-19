@@ -9,6 +9,9 @@ set expandtab
 set smarttab
 set modeline
 
+" Filetype-specific tabs
+autocmd FileType html setl ts=3 sts=3 et
+
 "save everytime
 set autowriteall
 autocmd CursorHold,CursorHoldI,InsertLeave * silent! wall
