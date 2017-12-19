@@ -15,6 +15,7 @@ autocmd FileType plugin indent on
 " Filetype-specific tabs
 autocmd FileType html setlocal ts=3 sw=3 expandtab
 autocmd FileType javascript setlocal ts=3 sw=3 expandtab
+autocmd FileType python setlocal ts=4 sw=4 expandtab
 
 "save everytime
 set autowriteall
