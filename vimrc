@@ -8,6 +8,13 @@ set shiftwidth=3
 set expandtab
 set smarttab
 set modeline
+set wrap
+
+autocmd FileType plugin indent on
+
+" Filetype-specific tabs
+autocmd FileType html setlocal ts=3 sw=3 expandtab
+autocmd FileType javascript setlocal ts=3 sw=3 expandtab
 
 "save everytime
 set autowriteall
@@ -16,7 +23,6 @@ autocmd CursorHold,CursorHoldI,InsertLeave * silent! wall
 set encoding=utf8
 set ffs=unix,dos,mac
 
-set nowrap
 set nobackup
 set nowb
 set noswapfile
