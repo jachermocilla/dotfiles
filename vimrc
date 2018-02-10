@@ -54,7 +54,7 @@ map <F7> :!make clean<cr>
 map <F6> :!git commit -m'edits' * ; git push <cr>
 
 "git push
-map <F5> :!git-ftp --active push <cr>
+map <F5> :!git ftp -A push <cr>
 
 "Toggle tags list
 map <F4> :TlistToggle<cr>
