@@ -51,7 +51,7 @@ map <F8> :!make<cr>
 map <F7> :!make clean<cr>
 
 "git commit
-map <F6> :!git commit -m'edits' * && git push <cr>
+map <F6> :!git commit -m'edits' % ; git push <cr>
 
 "git push
 map <F5> :!git ftp -A push <cr>
