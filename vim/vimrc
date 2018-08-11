@@ -2,6 +2,9 @@
 " jachermocilla@gmail.com
 "
 
+" Enable pathogen
+execute pathogen#infect()
+
 set background=dark
 set tabstop=3
 set shiftwidth=3
@@ -39,7 +42,6 @@ set textwidth=75
 
 "Key Mappings
 let Tlist_WinWidth=30
-
 
 
 "Explorer settings
