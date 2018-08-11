@@ -35,7 +35,7 @@ set number
 set showmatch
 
 "stick to 80x25
-"set textwidth=75
+set textwidth=75
 
 "Key Mappings
 let Tlist_WinWidth=30
