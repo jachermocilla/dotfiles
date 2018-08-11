@@ -56,9 +56,9 @@ augroup ProjectDrawer
 augroup END
 
 " GitGutter Settings 
-set g:GitGutterEnable
-set g:GitGutterSignsEnable
-set g:GitGutterLineHighlightsEnable
+autocmd VimEnter * :GitGutterEnable
+autocmd VimEnter * :GitGutterSignsEnable
+autocmd VimEnter * :GitGutterLineHighlightsEnable
 set updatetime=100
 
 "Generate ctags for current dir
