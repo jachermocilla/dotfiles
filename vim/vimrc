@@ -55,11 +55,11 @@ augroup ProjectDrawer
   autocmd VimEnter * :Vexplore
 augroup END
 
-" GitGutter Settings
-let g:GitGutterEnable
-let g:GitGutterSignsEnable
-let g:GitGutterLineHighlightsDisable
-
+" GitGutter Settings 
+:GitGutterEnable
+:GitGutterSignsEnable
+:GitGutterLineHighlightsEnable
+set updatetime=100
 
 "Generate ctags for current dir
 map <F9> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
