@@ -14,3 +14,4 @@ cp vimrc ~/.vimrc
 git clone --depth 1 https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone --depth 1 https://github.com/airblade/vim-gitgutter ~/.vim/bundle/vim-gitgutter
 
+
