@@ -1,0 +1,14 @@
+# change the hardstatus settings to give an window list at the bottom of
+# the
+# screen, with the time and date and with the current window highlighted
+startup_message off
+altscreen on
+term screen-256color
+
+# escape `~ # Make ` (backtick) the command key (press `~ to type `)
+
+termcapinfo xterm* ti@:te@    # fix the scroll bar
+defscrollback 100000 # large scroll back
+
+hardstatus alwayslastline
+hardstatus string '%{= rW}%-Lw%{= KW}%50>%n %t%{= rW}%+Lw%< %{= kG}%-=%D %d %M %Y %c%{-}'
