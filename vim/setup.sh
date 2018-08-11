@@ -11,8 +11,8 @@ unzip -o taglist_46.zip -d ~/.vim/
 cp srg-license.txt ~/.vim/
 cp vimrc ~/.vimrc
 
-rm ~/.vim/bundle/vim-airline
-rm ~/.vim/bundle/vim-gitgutter
+rm -fr ~/.vim/bundle/vim-airline
+rm -fr ~/.vim/bundle/vim-gitgutter
 
 git clone --depth 1 https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone --depth 1 https://github.com/airblade/vim-gitgutter ~/.vim/bundle/vim-gitgutter
