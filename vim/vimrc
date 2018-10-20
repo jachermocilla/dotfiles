@@ -53,6 +53,7 @@ let g:netrw_winsize = 12
 augroup ProjectDrawer
   autocmd!
   autocmd VimEnter * :Vexplore
+  autocmd VimEnter * :execute "normal \<C-w>\<Right>"
 augroup END
 
 " GitGutter Settings 
