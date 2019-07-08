@@ -8,7 +8,7 @@ execute pathogen#infect()
 set background=dark
 set tabstop=3
 set shiftwidth=3
-"set expandtab
+set expandtab
 set smarttab
 set modeline
 set wrap
