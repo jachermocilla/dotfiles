@@ -8,7 +8,7 @@ execute pathogen#infect()
 set background=dark
 set tabstop=3
 set shiftwidth=3
-set expandtab
+"set expandtab
 set smarttab
 set modeline
 set wrap
@@ -38,7 +38,7 @@ set number
 set showmatch
 
 "stick to 80x25
-set textwidth=75
+"set textwidth=75
 
 "Key Mappings
 let Tlist_WinWidth=30
