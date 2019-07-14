@@ -1,13 +1,17 @@
 #!/bin/bash
 #jachermocilla@gmail.com
 
+sudo apt-get install exuberant-ctags curl
+
 #install plugins using pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
-sudo apt-get install exuberant-ctags
 mkdir ~/.vim
-unzip -o taglist_46.zip -d ~/.vim/
+unzip -o plugins/taglist_46.zip -d ~/.vim/
+unzip -o plugins/bufexplorer-7.4.21.zip -d ~/.vim/
+unzip -o plugins/winmanager.zip -d ~/.vim/
+
 cp srg-license.txt ~/.vim/
 cp vimrc ~/.vimrc
 
