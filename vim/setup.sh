@@ -1,6 +1,13 @@
 #!/bin/bash
 #jachermocilla@gmail.com
 
+#pass any parameter to copy the vimrc only
+if [ "$#" -eq 1 ]; then
+   cp vimrc ~/.vimrc
+   exit 0
+fi
+
+
 sudo apt-get install exuberant-ctags curl
 
 #install plugins using pathogen
