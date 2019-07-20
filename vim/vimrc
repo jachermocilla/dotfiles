@@ -45,7 +45,7 @@ let Tlist_WinWidth=30
 
 "folding
 set foldmethod=syntax
-set foldcolumn=1
+set foldcolumn=3
 
 
 
