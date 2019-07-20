@@ -43,6 +43,11 @@ set showmatch
 "Key Mappings
 let Tlist_WinWidth=30
 
+"folding
+set foldmethod=syntax
+set foldcolumn=3
+
+
 
 "Explorer settings
 "let g:netrw_banner = 0
