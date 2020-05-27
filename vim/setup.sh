@@ -29,6 +29,5 @@ rm -fr ~/.vim/bundle/echofunc
 git clone --depth 1 https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone --depth 1 https://github.com/airblade/vim-gitgutter ~/.vim/bundle/vim-gitgutter
 git clone --depth 1 https://github.com/mbbill/echofunc.git ~/.vim/bundle/echofunc
-
-
-
+git clone --depth 1 https://github.com/moll/vim-node.git ~/.vim/bundle/node
+git clone --depth 1 https://github.com/MaxMEllon/vim-jsx-pretty.git ~/.vim/bundle/vim-jsx-pretty
