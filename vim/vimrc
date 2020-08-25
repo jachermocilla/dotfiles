@@ -32,7 +32,8 @@ set nowb
 set noswapfile
 
 syntax on
-colorscheme torte
+"colorscheme torte
+colorscheme miramare
 
 set number
 set showmatch
