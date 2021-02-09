@@ -1,0 +1,97 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = a4ffd9db-4e43-4fdb-9c85-769d3ed3a787
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:24
+      size = 1366, 744
+      title = jachermocilla@magdalene
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 774
+      ratio = 0.568814055637
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 369
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = a4ffd9db-4e43-4fdb-9c85-769d3ed3a787
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = largefont
+      type = Terminal
+      uuid = 98beb232-a94e-46ea-a2ab-d8e01bf51afa
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = d981e826-9a86-4641-b450-2e47954c906b
+  [[jach]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = a4ffd9db-4e43-4fdb-9c85-769d3ed3a787
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:24
+      size = 1366, 744
+      title = jachermocilla@magdalene
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 774
+      ratio = 0.568814055637
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 369
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = a4ffd9db-4e43-4fdb-9c85-769d3ed3a787
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = largefont
+      type = Terminal
+      uuid = 98beb232-a94e-46ea-a2ab-d8e01bf51afa
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = d981e826-9a86-4641-b450-2e47954c906b
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.81
+    background_image = None
+    background_type = transparent
+  [[largefont]]
+    background_image = None
+    font = Monospace Bold 10
+    use_system_font = False
