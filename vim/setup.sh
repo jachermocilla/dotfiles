@@ -32,3 +32,4 @@ git clone --depth 1 https://github.com/mbbill/echofunc.git ~/.vim/bundle/echofun
 git clone --depth 1 https://github.com/moll/vim-node.git ~/.vim/bundle/node
 git clone --depth 1 https://github.com/MaxMEllon/vim-jsx-pretty.git ~/.vim/bundle/vim-jsx-pretty
 git clone --depth 1 https://github.com/franbach/miramare.git ~/.vim/bundle/miramare
+git clone --depth 1 https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
