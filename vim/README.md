@@ -26,6 +26,12 @@ My VIM utilities which basically is a vimrc :)
 *   **:qa!**                        - Save all buffers and exit
 *   **: \<line number\>**           - Go to line number
 *   **:! \<command\>**                - Run a cli command
+*   **Shift+z,r                     - expand
+*   **yy                            - copy
+*   **dd                            - cut
+*   **p                             - paste
+*   **v                             - select text in line
+*   **Shif                          - select lines
 
 ### Resources
 *   http://vim-taglist.sourceforge.net/manual.html#taglist-using
