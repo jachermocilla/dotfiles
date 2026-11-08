@@ -5,7 +5,9 @@ description: Review a research proposal submitted as a PDF (e.g., CMSC 190/200/3
 
 # Research Proposal Review
 
-Reviews a research proposal PDF using the criteria from the six-part SRG ICS-UPLB guide series ("Lost Packets" blog, J.A.C. Hermocilla):
+Reviews a research proposal PDF using the criteria from the six-part SRG ICS-UPLB guide series ( ["Lost Packets" blog](https://srg-ics-uplb.github.io/blog/), J.A.C. Hermocilla ):
+
+
 
 1. Finding and identifying research gaps
 2. Writing the problem statement
